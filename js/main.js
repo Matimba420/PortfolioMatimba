@@ -114,41 +114,41 @@
                          toggleLightbox();
                      })
                   }
-                  function nextItem()
-                  {
-                      if(itemIndex == totalportfolioItem-1)
-                      {
-                          itemIndex=0;
-                      }
-                      else
-                      {
-                          itemIndex++
-                      }
-                      changeItem();
-                  }
-                  function prevItem()
-                  {
-                      if(itemIndex == 0)
-                      {
-                          itemIndex=totalportfolioItem-1;
-                      }
-                      else
-                      {
-                          itemIndex--
-                      }
-                      changeItem();
-                  }
-                  function toggleLightbox()
-                  {
-                      lightbox.classList.toggle("open");
-                  }
-                  function changeItem()
-                  {
-                      imgSrc = PortfolioItems[itemIndex].querySelector(".portfolio-img img").getAttribute("src");
-                      lightboxImg.src=imgSrc;
-                      lightboxText.innerHTML=PortfolioItems[itemIndex].querySelector("h4").innerHTML;
-                      lightboxCounter.innerHTML=(itemIndex+1) + " of " + totalportfolioItem;
-                  }
+                //   function nextItem()
+                //   {
+                //       if(itemIndex == totalportfolioItem-1)
+                //       {
+                //           itemIndex=0;
+                //       }
+                //       else
+                //       {
+                //           itemIndex++
+                //       }
+                //       changeItem();
+                //   }
+                //   function prevItem()
+                //   {
+                //       if(itemIndex == 0)
+                //       {
+                //           itemIndex=totalportfolioItem-1;
+                //       }
+                //       else
+                //       {
+                //           itemIndex--
+                //       }
+                //       changeItem();
+                //   }
+                //   function toggleLightbox()
+                //   {
+                //       lightbox.classList.toggle("open");
+                //   }
+                //   function changeItem()
+                //   {
+                //       imgSrc = PortfolioItems[itemIndex].querySelector(".portfolio-img img").getAttribute("src");
+                //       lightboxImg.src=imgSrc;
+                //       lightboxText.innerHTML=PortfolioItems[itemIndex].querySelector("h4").innerHTML;
+                //       lightboxCounter.innerHTML=(itemIndex+1) + " of " + totalportfolioItem;
+                //   }
                   // close lightbox
                   lightbox.addEventListener("click",function(event)
                   {
