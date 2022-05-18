@@ -1198,10 +1198,6 @@ footer .copyright-text
 
 
 
-
-
-
-
 .contact form{
     margin:1rem auto;
     max-width: 40rem;
@@ -1225,6 +1221,7 @@ footer .copyright-text
 .contact form textarea{
     height: 10rem;
     resize: none;
+    
 }
 
 .contact form .box:focus{
