@@ -271,7 +271,7 @@ img
 .header-social
 {
     position: absolute;
-    top: 53%;
+    top: 80%;
     left: 50px;
     transform: translateY(-53%);
     border: 1px solid rgba(0,167,142,0.21);
