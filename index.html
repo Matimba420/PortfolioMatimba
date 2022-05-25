@@ -89,7 +89,9 @@
                     <h4>Hello</h4>
 
                     <h1>I'm, Matimba Chauke</h1>
-                    <span> Full-Stack Developer</span>
+                    
+                    <h4 class="post"><span class="typing-text"></span></h4>
+
                     <p>I’m effective verbal and written communication within the team and I can also be a
                         team player and able to play a leadership role within the team. I’m a hardworking and
                         patient person. I have the ability to design, code and deploy scalable, distributed
@@ -420,61 +422,57 @@ style=" fill:#000000;"><path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37
                                 <div class="w3-twothird">
 
                                     <div class="w3-container w3-card w3-white w3-margin-bottom">
-                                        <h2 class="w3-text-grey w3-padding-16"><i
-                                                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal">The
-                                                Digital Academy</i></h2><br>
-                                        <div class="w3-container">
-                                            <h4 class="w3-opacity"><b>Full-Stack Developer</b></h4>
-                                            <h5 class="w3-text-teal"><i
-                                                    class="fa fa-calendar fa-fw w3-margin-right"></i>Dec 2021 - <span
-                                                    class="w3-tag w3-teal w3-round">Current</span></h5><br>
-                                            <p class="text-break"> Full-Stack developer with less than 1 year of
-                                                industry experience In The
-                                                Digital Academy, working mainly on front-end and back-end using
-                                                technologies including Angular , MongoDB, JavaScript, TypeScript,
-                                                NodeJs, HTML, CSS,Docker, Github, Gitlab and Bootstrap. I also have
-                                                knowledge in Front_end which include (Angular ,JavaScript
-                                                ,TypeScript,HTML5,SCSS and Bootstrap) and Back_end which include
-                                                (Express, NodeJS,PostgreSQL and MongoDB).</p><br>
-                                                
-                                                <p>I'm familier with the Project
-                                                    Management and communication platform Trello to communicate. And the
-                                                    code Controllers I'm using Gitlab.</p>
-                                            <hr>
-                                        </div><br>
+                                        
+                                        
                                         <br>
                                         <div class="w3-container">
 
-                                            <h2 class="w3-text-grey w3-padding-16"><i
-                                                    class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal">Gauteng
-                                                    Department Of Education</i></h2><br>
-                                            <h4 class="w3-opacity"><b>Desktop Technician</b></h4>
+                                           
 
-                                            <h5 class="w3-text-teal"><i
-                                                    class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2021 - Nov 2021
-                                            </h5><br>
-                                            <p class="text-break" >I worked as IT Desktop Technician from Gauteng
-                                                Department of Education
-                                                where i Have Advanced knowledge of computer hardware and software
-                                            <p class="text-break"> Experience with network technologies and devices such
-                                                as routers,
-                                                switches, routers, and firewalls</p>
-                                            <p class="text-break"> Familiarity with Microsoft Cloud solutions such as
-                                                Microsoft365 and
-                                                Azure</p>
-                                            <p class="text-break">Working knowledge of a range of diagnostic utilities
-                                                and processes</p>
-                                            <p class="text-break"> Familiarity with the Microsoft Office Suite of
-                                                Applications</p>
-                                            <p class="text-break"> Working knowledge of help desk/incident manage</p>
-                                            <p class="text-break"> Experience with desktop operating systems</p>
-                                            <hr>
+
+                                            <section class="education" id="education">
+                                                <div class="box-container">
+                                        
+                                                    <div class="box">
+                                                        <div class="year">2021 - Present</div>
+                                                        <h2>The Digital Academy</h2><br>
+                                                        <h4>Full-Stack Developer</h4>
+                                                        <p>Full-Stack developer with less than 1 year of
+                                                            industry experience In The
+                                                            Digital Academy, working mainly on front-end and back-end using
+                                                            technologies including Angular , MongoDB, JavaScript, TypeScript,
+                                                            NodeJs, HTML, CSS,Docker, Github, Gitlab and Bootstrap.</p><p>also have
+                                                            knowledge in Front_end which include (Angular ,JavaScript
+                                                            ,TypeScript,HTML5,SCSS and Bootstrap) and Back_end which include
+                                                            (Express, NodeJS,PostgreSQL and MongoDB).</p>
+                                                    </div>
+                                        
+                                                    <div class="box">
+                                                        <div class="year">2021 - 2021/11/01</div>
+                                                        <h2>Gauteng Department of Education</h2><br>
+                                                        <h4>Desktop Suport Technician</h4>
+                                                        <p>I worked as IT Desktop Technician from Gauteng Department of Education where i Have Advanced knowledge of computer hardware and software.
+                                                            <p> Experience with desktop operating systems</p>
+                                                            <p>Experience with network technologies and devices such as routers, switches, routers, and firewalls</p>
+                                                            <p> Familiarity with the Microsoft Office Suite of Applications</p>
+                                                            <p>Familiarity with Microsoft Cloud solutions such as Microsoft365 and Azure</p>
+                                                            <p>Working knowledge of a range of diagnostic utilities and processes</p>
+                                                            <p>Working knowledge of help desk/incident manage</p>
+                                                    </div>
+                                        
+                                                
+                                        
+                                                </div>
+                                        
+                                            </section>
                                         </div>
                                     </div>
                         </section>
 
 
                     </ul>
+
+                    
                 </div>
                 <!--===== Section Title =====-->
             </div>
@@ -486,6 +484,10 @@ style=" fill:#000000;"><path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37
 
 
             </div>
+
+
+
+            
         </div>
     </section>
     <!--===== Contact Section Start =====-->
@@ -598,7 +600,26 @@ style=" fill:#000000;"><path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 
+    <script>
+    
+        var type = new Typed('.typing-text',{
+            strings : [ 'Junior Software Developer','Front end Developer','Back end Developer' ],
+            typeSpeed: 110,
+            loop:true
+
+            
+        });
+        
+    
+        let themeColor = document.querySelectorAll('.theme-toggler span');
+        themeColor.forEach(color => color.addEventListener('click', () =>{
+            let background = color.style.background;
+            document.querySelector('body').style.background = background;
+        }));
+    
+    </script>
 
 
     <script src="js/main.js"></script>
